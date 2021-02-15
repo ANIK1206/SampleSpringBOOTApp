@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class ContentController {
 	//Put your code here.	
+	/* Auto-wiring Business Service */
 	@Autowired
 	private ContentService contentService; 
 	
